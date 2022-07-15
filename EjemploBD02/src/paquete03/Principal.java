@@ -20,7 +20,7 @@ public class Principal {
         a.establecerPlaca("LBNS0001");
         a.establecerValorMatricula(200.2);
         
-        c.insertarAuto(a);
+       // c.insertarAuto(a);
         
         for (int i = 0; i < c.obtenerDataAuto().size(); i++) {
             System.out.printf("%s\n", c.obtenerDataAuto().get(i));
